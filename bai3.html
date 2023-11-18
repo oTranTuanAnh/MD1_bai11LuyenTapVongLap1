@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fibonaci</title>
+</head>
+<body>
+<script>
+    let a = 0;
+    let b = 1;
+    let num = +prompt("nhap so luong");
+    document.write(a + " " + b+ " ");
+    for (let i = 2; i < num; i++) {
+        let c = a+b;
+        document.write(c + " ");
+        a = b;
+        b = c;
+
+    }
+</script>
+
+
+
+
+</body>
+</html>

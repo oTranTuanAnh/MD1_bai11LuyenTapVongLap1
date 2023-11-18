@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fibonaciTong</title>
+</head>
+<body>
+<script>
+    let a = 0;
+    let b = 1;
+    let total = 1;
+    let num = +prompt("nhap so luong");
+    document.write(a + " " + b+ " ");
+    for (let i = 2; i < num; i++) {
+        let c = a+b;
+        total = total+c;
+        document.write(c + " ");
+        a = b;
+        b = c;
+    }
+    document.write("<br> Tong la "+total);
+
+</script>
+</body>
+</html>
